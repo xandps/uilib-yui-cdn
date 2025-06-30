@@ -1,0 +1,24 @@
+.yui-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1.5px solid #1976d200;
+    border-radius: 6px;
+    background: linear-gradient(to top, var(--quaternary), var(--terciary));
+    color: var(--text-color);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.yui-input:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.15);
+}
+
+.yui-input:disabled {
+    background: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+    border-color: #e0e0e0;
+}
