@@ -7,9 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-    <button class="yui-btn">
-        Write A Description
-    </button>
-    <input type="text" placeholder="Write A Description" class="yui-input">
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+        <button class="y-btn">
+            Write A Description
+        </button>
+        <input type="text" placeholder="Write A Description" class="y-input">
+        <div class="y-spinner"></div>
+        <div class="y-card">
+            <h3 class="y-card-title">Título do Card</h3>
+            <p class="y-card-content">Este é um exemplo de card utilizando a estilização da sua biblioteca.</p>
+            <button class="y-btn">Ação</button>
+        </div>
+        <select class="y-select">
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
+    </div>
 </body>
 </html>

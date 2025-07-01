@@ -1,19 +1,24 @@
-@import url('../components/buttons/yui-button.css');
-@import url('../components/inputs/yui-input.css');
+@import url('../components/buttons/y-button.css');
+@import url('../components/inputs/y-input.css');
+@import url('../components/spinners/y-spinner.css');
+@import url('../components/cards/y-card.css');
+@import url('../components/selects/y-select.css');
 
 :root {
   --primary: #6C28E8;
   --secundary: #491c9c;
-  --terciary: #323232;
+  --tertiary: #323232;
   --quaternary: #262525;
   --backgorund-color: #111112;
-  --text-color: #FFFFFF;
+  --text-color: #DDDDDD;
   --radius: 0.5rem;
 }
 
 [data-theme="light"] {
   --primary: #9f78e7;
   --secundary: #7e47e4;
+  --tertiary: #9b9b9b;
+  --quaternary: #707070;
   --backgorund-color: #DDDDDD;
   --text-color: #111112;
 }

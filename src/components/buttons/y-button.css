@@ -1,4 +1,4 @@
-.yui-btn {
+.y-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,12 +7,12 @@
   border-radius: var(--radius);
   padding: 0.6rem 1.2rem;
   border: none;
-  font-weight: 600;
+  font-size: 0.8rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.yui-btn:hover {
+.y-btn:hover {
   opacity: 0.9;
   transform: scale(1.01);
 }
