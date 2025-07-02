@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/yuilib.css">
+    <script src="./tools/yuilib.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+        <button class="y-btn">
+            Write A Description
+        </button>
+        <input type="text" placeholder="Write A Description" class="y-input">
+        <div class="y-spinner"></div>
+        <div class="y-card">
+            <h3 class="y-card-title">Title Card</h3>
+            <p class="y-card-content">Example text description, lorem iphe delphis.</p>
+            <button class="y-btn">Action</button>
+        </div>
+        <div class="y-select-wrapper">
+            <input type="hidden" name="seletor" value="">
+            
+            <div class="y-select" tabindex="0">
+                <span class="y-selected">Option a select</span>
+            </div>
+
+            <div class="y-option-container">
+                <span class="y-option" data-value="1">Option one</span>
+                <span class="y-option" data-value="2">Option two</span>
+                <span class="y-option" data-value="3">Option Three</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

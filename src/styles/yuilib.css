@@ -1,0 +1,30 @@
+@import url('../components/buttons/y-button.css');
+@import url('../components/inputs/y-input.css');
+@import url('../components/spinners/y-spinner.css');
+@import url('../components/cards/y-card.css');
+@import url('../components/selects/y-select.css');
+
+:root {
+  --primary: #6C28E8;
+  --secundary: #491c9c;
+  --tertiary: #323232;
+  --quaternary: #262525;
+  --backgorund-color: #111112;
+  --text-color: #DDDDDD;
+  --radius: 0.5rem;
+}
+
+[data-theme="light"] {
+  --primary: #9f78e7;
+  --secundary: #7e47e4;
+  --tertiary: #9b9b9b;
+  --quaternary: #707070;
+  --backgorund-color: #DDDDDD;
+  --text-color: #111112;
+}
+
+body {
+  background-color: var(--backgorund-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', sans-serif;
+}

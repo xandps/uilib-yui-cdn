@@ -1,0 +1,16 @@
+.y-spinner {
+    width: 48px;
+    height: 48px;
+    border: 5px solid transparent;
+    border-top: 5px solid var(--primary);
+    border-radius: 50%;
+    animation: yui-spin 1s linear infinite;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+@keyframes yui-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

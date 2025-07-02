@@ -1,0 +1,18 @@
+.y-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, var(--secundary), var(--primary));
+  color: var(--text-color);
+  border-radius: var(--radius);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.y-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.01);
+}

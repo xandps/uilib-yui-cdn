@@ -1,0 +1,24 @@
+.y-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1.5px solid #ffffff00;
+    border-radius: var(--radius);
+    background: linear-gradient(to top, var(--quaternary), var(--tertiary));
+    color: var(--text-color);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.y-input:focus {
+    border-color: var(--primary);   
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.15);
+}
+
+.y-input:disabled {
+    background: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+    border-color: #e0e0e0;
+}
